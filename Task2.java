@@ -1,4 +1,5 @@
 // Check if a number is even or odd
+// Code By :- Prof. Shiburaj
 
 import java.util.Scanner;
 

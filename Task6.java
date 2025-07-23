@@ -1,4 +1,5 @@
 // Calculate factorial of a number
+// Code By :- Prof. Shiburaj
 
 import java.util.Scanner;
 

@@ -1,4 +1,5 @@
 // Reverse a number (e.g., 123 → 321)
+// Code By :- Prof. Shiburaj
 
 import java.util.Scanner;
 

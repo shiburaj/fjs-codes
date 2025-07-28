@@ -1,4 +1,4 @@
-//Task-7 - Fibonacci series
+//Task 7 - Fibonacci series
 //Written by - Hunain Shaikh
 
 package com.example;

@@ -1,3 +1,6 @@
+//Vowel and consonant counter
+//Code by - Hunain Shaikh 241P043
+
 package com.example;
 import java.util.Scanner;
 

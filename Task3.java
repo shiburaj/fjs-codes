@@ -1,28 +1,31 @@
-// Find the largest of 3 numbers
-// Code By :- Prof. Shiburaj
-
 import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sn = new Scanner(System.in);
+        System.out.println("Enter three numbers :");
+        int n1 = sn.nextInt();
+        int n2 = sn.nextInt();
+        int n3 = sn.nextInt();
+        LargestNumber num = new LargestNumber();
+        num.Find(n1,n2,n3);
 
-        System.out.print("Enter a number:");
-        int a = scanner.nextInt();
-        System.out.print("Enter a number:");
-        int b = scanner.nextInt();
-        System.out.print("Enter a number:");
-        int c = scanner.nextInt();
-
-        if(a>b && a>c){
-            System.out.println("The largest number is: " + a);
-        }else if(b>a && b>c){
-            System.out.println("The largest number is: " + b);
-        }else{
-            System.out.println("The largest number is: " + c);
+    }
+}
+class LargestNumber{
+    public void Find(int n1,int n2, int n3){
+        if (n1>n2) {
+            if (n1>n3) {
+                System.out.println("Largest number is "+n1);
+            } else {
+                System.out.println("Largest number is "+n3);
+            }
+        } else {
+            if (n2>n3) {
+                System.out.println("Largest number is "+n2);
+            } else {
+                System.out.println("Largest number is "+n3);
+            }
         }
-
-
-        scanner.close();
     }
 }

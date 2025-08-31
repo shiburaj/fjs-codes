@@ -1,7 +1,4 @@
-//Largest value finder
-//Written by Hunain Shaikh 241P043
 
-package main.java.com.example;
 
 public class Task17 {
     public static void main(String[] args) {
@@ -16,3 +13,4 @@ public class Task17 {
         System.out.printf("Largest number in array is %d", big);
     }
 }
+
